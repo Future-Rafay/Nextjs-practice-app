@@ -28,16 +28,19 @@ const Header = () => {
         }}
       >
         <li>
-          <Link href={"/about"}></Link>About
+          <Link href={"/"}>Home</Link>
         </li>
         <li>
-          <Link href={"/profile"}></Link>Porfile
+          <Link href={"/about"}>About</Link>
         </li>
         <li>
-          <Link href={"/blog"}></Link>Blogs
+          <Link href={"/profile"}>Porfile</Link>
         </li>
         <li>
-          <Link href={"/login"}></Link>Login
+          <Link href={"/blog"}>Blogs</Link>
+        </li>
+        <li>
+          <Link href={"/login"}>Login</Link>
         </li>
       </ul>
     </>

@@ -2,15 +2,15 @@ import { Metadata } from 'next';
 import React from 'react'
 
 export const metadata : Metadata = {
-  title : "Profile"
+    title: "Register" 
 }
 
-const ProfilePage = () => {
+const RegisterPage = () => {
   return (
     <>
-    <h1>Profile Page</h1>
+    <h1>Register Page</h1>
     </>
   )
 }
 
-export default ProfilePage;
+export default RegisterPage;    

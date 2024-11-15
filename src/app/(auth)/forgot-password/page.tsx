@@ -1,11 +1,16 @@
+import { Metadata } from 'next';
 import React from 'react'
 
-const forgotPassword = () => {
+export const metadata : Metadata = {
+    title: { absolute : "Forget Password" } 
+}
+
+const forgerPassword = () => {
   return (
-    <div>
-        <h1>Forgot Password Page</h1>
-        </div>
+    <>
+    <h1>Forget Password Page</h1>
+    </>
   )
 }
 
-export default forgotPassword;
+export default forgerPassword;
